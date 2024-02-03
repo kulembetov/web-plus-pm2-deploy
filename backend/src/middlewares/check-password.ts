@@ -1,5 +1,5 @@
-import { RequestHandler } from 'express';
-import BadRequest from '../errors/bad-request-error';
+import { RequestHandler } from "express";
+import BadRequest from "../errors/bad-request-error";
 
 const checkPassword: RequestHandler = (req, res, next) => {
   const { password } = req.body;
