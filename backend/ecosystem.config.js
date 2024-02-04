@@ -9,6 +9,10 @@ module.exports = {
     {
       name: "mesto",
       script: "dist/app.js",
+      env_production: {
+        NODE_ENV: "production",
+        PATH: "/home/artur/.nvm/versions/node/v20.11.0/bin:" + process.env.PATH,
+      },
     },
   ],
   deploy: {
