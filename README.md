@@ -109,4 +109,4 @@ pm2 start app_name
 
 ## License
 
-The [MIT License](https://github.com/kulembetov/web-plus-pm2-deploy/blob/main/README.md) is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
+The [MIT License](https://github.com/kulembetov/web-plus-pm2-deploy/blob/main/MIT-LICENSE.md) is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
