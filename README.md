@@ -5,10 +5,10 @@
 ## IP-адрес сервера:
 158.160.40.178
 
-## Фронтенд:
+## Frontend:
 https://mesto.kulembetov.nomoredomainsmonster.ru
 
-## Бэкенд:
+## Backend:
 https://api.mesto.kulembetov.nomoredomainsmonster.ru
 
 ## Шаг 1: Установка PM2
@@ -106,3 +106,7 @@ pm2 start app_name
 ## Перезапуск приложения: pm2 restart app_name
 ```
 Готово! Теперь у вас есть автоматизированный процесс деплоя приложения с использованием PM2 на вашем удаленном сервере.
+
+## License
+
+The [MIT License](https://github.com/kulembetov/web-plus-pm2-deploy/blob/main/README.md) is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don’t hold you liable.
