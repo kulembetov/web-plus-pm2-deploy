@@ -1,20 +1,13 @@
 const dotenv = require("dotenv");
-dotenv.config({ path: "./.env.deploy" });
+dotenv.config({ path: "./.env.deploy"});
 
-const { DEPLOY_USER, DEPLOY_HOST, DEPLOY_PATH, DEPLOY_REPOSITORY, DEPLOY_REF } =
-  process.env;
+const { DEPLOY_USER, DEPLOY_HOST, DEPLOY_PATH, DEPLOY_REPOSITORY, DEPLOY_REF } = process.env;
 
 module.exports = {
-  apps: [
-    {
-      name: "mesto",
-      script: "dist/app.js",
-      env_production: {
-        NODE_ENV: "production",
-        PATH: "/home/artur/.nvm/versions/node/v20.11.0/bin:" + process.env.PATH,
-      },
-    },
-  ],
+  apps: [{
+    name: "mesto",
+    script: "dist/app.js"
+  }],
   deploy: {
     production: {
       user: DEPLOY_USER,
